@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Iceland&display=swap");
 html, body {
-  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a2114b9-8215-4579-8232-2de8d52f4405/d9073ya-4bfb7d06-77e3-434b-a398-be8de3366baf.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdhMjExNGI5LTgyMTUtNDU3OS04MjMyLTJkZThkNTJmNDQwNVwvZDkwNzN5YS00YmZiN2QwNi03N2UzLTQzNGItYTM5OC1iZThkZTMzNjZiYWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.r0NTeYOahLw3zjLsj2zPF4kruJcAx5Cb3bwssFbiJU0");
+  background: url("bar.jpg");
   width: 100%;
   height: 100%;
   margin: 0;
@@ -47,7 +47,7 @@ body {
 }
 
 #headshot {
-  background: url("https://cdn.dribbble.com/users/1588446/screenshots/7028330/media/8d542e2cc44a1054a2ff8057438fdb8a.gif");
+  background: url("redeye.gif");
   height: 60%;
   width: 100%;
   margin: 0;
@@ -70,7 +70,7 @@ h1 {
 
 #context {
   height: 50%;
-  background: url("https://image.shutterstock.com/image-vector/creative-hud-futuristic-rectangle-frame-260nw-1137620018.jpg");
+  background: url("redbox.png");
   background-repeat: no-repeat;
   background-size: 90% 90%;
   padding: 0;

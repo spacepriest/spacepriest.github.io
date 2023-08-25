@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Iceland&display=swap");
+html, body {
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a2114b9-8215-4579-8232-2de8d52f4405/d9073ya-4bfb7d06-77e3-434b-a398-be8de3366baf.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdhMjExNGI5LTgyMTUtNDU3OS04MjMyLTJkZThkNTJmNDQwNVwvZDkwNzN5YS00YmZiN2QwNi03N2UzLTQzNGItYTM5OC1iZThkZTMzNjZiYWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.r0NTeYOahLw3zjLsj2zPF4kruJcAx5Cb3bwssFbiJU0");
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Inconsolata;
+}
+
+.perfunct {
+  width: 30px;
+  height: 30px;
+}
+
+.pingimago {
+  width: 15%;
+  height: 15%;
+}
+
+#ping {
+  text-align: center;
+}
+#ping #ping1 {
+  margin-top: -50px;
+}
+#ping img {
+  width: 150px;
+  border-radius: 3px;
+}
+#ping .pingimago1 {
+  transform: skewY(2deg);
+  margin-right: 50px;
+}
+#ping .pingimago2 {
+  transform: skewY(-2deg);
+  margin-left: 50px;
+  width: 200px;
+}
+#ping #ping1, #ping a, #ping img {
+  background: linear-gradient(to right, black, rgba(0, 230, 230, 0.5));
+}
+
+body {
+  background: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headshot {
+  background: url("https://cdn.dribbble.com/users/1588446/screenshots/7028330/media/8d542e2cc44a1054a2ff8057438fdb8a.gif");
+  height: 60%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: 55% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  opacity: 0.7;
+}
+
+button {
+  font-family: "Iceland";
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 1000px;
+}
+
+#context {
+  height: 50%;
+  background: url("https://image.shutterstock.com/image-vector/creative-hud-futuristic-rectangle-frame-260nw-1137620018.jpg");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.hammerlife {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919, 0 0 15px #ff1919;
+  width: 25%;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  transform: skewY(5deg);
+  display: none;
+}
+
+.hammerrake {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919, 0 0 15px #ff1919;
+  width: 25%;
+  text-align: right;
+  margin-left: 70%;
+  margin-top: 20px;
+  transform: skewY(-3deg);
+  display: none;
+}
+
+.bit-1 {
+  background-color: inherit;
+  color: #fff;
+  text-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919, 0 0 15px #ff1919;
+  font-size: 16px;
+  border-color: #ff1919;
+  box-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919 0 0 15px #ff1919;
+  margin-top: 30px;
+  transform: rotateX(30deg);
+}
+
+.bit-2 {
+  background-color: inherit;
+  color: #fff;
+  text-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919, 0 0 15px #ff1919;
+  font-size: 16px;
+  border-color: #ff1919;
+  box-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919, 0 0 15px #ff1919;
+}
+
+.confide-bit {
+  display: flex;
+  margin-left: 30%;
+}
+
+#nagle {
+  padding-top: 10rem;
+  text-align: justify;
+}
+#nagle .navajo {
+  display: none;
+  margin-left: 42.5%;
+}
+
+#neurax {
+  vertical-align: middle;
+  margin-top: 7rem;
+  text-decoration: none;
+}
+
+.linguistic-command {
+  background-color: black;
+  border-radius: 5px;
+  width: 75%;
+  margin-left: 12.5%;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  margin-top: 21rem;
+  font-size: 2em;
+  color: #ff1919;
+  display: none;
+  opacity: 0.8;
+}
+
+@keyframes superweapm {
+  0% {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+  }
+  33% {
+    height: 2px;
+    width: 20%;
+    font-size: 0px;
+  }
+  66% {
+    height: 8%;
+    width: 20px;
+    font-size: 0px;
+  }
+  100% {
+    height: 8%;
+    width: 75%;
+    font-size: 30px;
+  }
+}
+@keyframes poolcashb {
+  0% {
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+  }
+  50% {
+    height: 1px;
+    width: 100px;
+    font-size: 0px;
+  }
+  100% {
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+  }
+}
+@keyframes contact-logistics {
+  0% {
+    font-size: 0px;
+  }
+}
+.core-halifax {
+  display: none;
+  color: #fff;
+  text-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919, 0 0 15px #ff1919;
+  animation-name: contact-logistics;
+  animation-duration: 1s;
+}
+.core-halifax h1 {
+  padding-left: 25%;
+  margin-left: 0;
+  margin-top: -25px;
+  font-size: 200%;
+}
+.core-halifax p {
+  padding-left: 25%;
+  padding-right: 30%;
+  margin-left: 0;
+  text-align: justify;
+}
+
+.core-savant {
+  color: #fff;
+  text-shadow: 0 0 5px #ff1919, 0 0 10px #ff1919, 0 0 15px #ff1919;
+  animation-name: contact-logistics;
+  animation-duration: 1s;
+}
+.core-savant h1 {
+  word-wrap: word-break;
+  padding-left: 25%;
+  margin-left: 0%;
+  margin-top: -25px;
+}
+.core-savant p {
+  padding-left: 25%;
+  padding-right: 30%;
+  margin: 0;
+  text-align: justify;
+}
+
+.ireBunker {
+  padding: 7px;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative !important;
+}
+
+.ire {
+  position: absolute;
+  display: block;
+  background-color: rgba(166, 0, 0, 0.65);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+
+.ire.animate {
+  -webkit-animation: lockon 800ms ease-out;
+  animation: lockon 800ms ease-out;
+}
+
+@-webkit-keyframes lockon {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+  }
+  100% {
+    transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@keyframes lockon {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+  }
+  100% {
+    transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  #ping .pingimago {
+    width: 300px;
+  }
+  #ping .pingimago1 {
+    margin-right: 0px;
+  }
+  #ping .pingimago2 {
+    margin-left: 0px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .hammerlife {
+    margin-left: 10px;
+    transform: skewY(10deg);
+  }
+
+  .hammerrake {
+    margin-left: 70%;
+    transform: skewY(-10deg);
+  }
+}
+@media screen and (max-height: 600px) {
+  #neurax {
+    margin-top: 4rem;
+  }
+
+  img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .linguistic-command {
+    margin-top: 11rem;
+  }
+
+  .hammerlife {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 60%;
+    transform: skewY(4deg);
+  }
+
+  .hammerrake {
+    margin-top: 10px;
+    font-size: 60%;
+    transform: skewY(-4deg);
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .core-savant {
+    margin-top: -50px;
+  }
+
+  ::-webkit-overflow-scrollbar {
+    width: 20px;
+  }
+
+  .core-halifax {
+    font-size: 1rem;
+  }
+  .core-halifax h1 {
+    margin-top: -70px;
+    width: 50%;
+  }
+  .core-halifax p {
+    height: 50%;
+    padding-right: 0px;
+    margin-right: 25%;
+    overflow: auto;
+  }
+
+  p {
+    word-wrap: break-word;
+  }
+
+  .navajo:first-child {
+    margin-top: -50px;
+  }
+
+  .navajo {
+    margin-left: 32.5%;
+  }
+
+  #confide .compartment {
+    margin-top: -50px;
+  }
+
+  #confide .bitcoin {
+    margin-top: 0px;
+  }
+}

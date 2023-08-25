@@ -13,7 +13,7 @@ var txt = [
   "FORCE: XX0022. ENCYPT://000.222.2345",
   "TRYPASS: ********* AUTH CODE: ALPHA GAMMA: 1___ PRIORITY 1",
   "RETRY: REINDEER FLOTILLA",
-  "Z:> /FALKEN/GAMES/TICTACTOE/ EXECUTE -PLAYERS 0",
+  "Z:> /ORION/FILES/DEATHWING/ EXECUTE -ATTEMPTS 0",
   "================================================",
   "Priority 1 // local / scanning...",
   "scanning ports...",
@@ -520,7 +520,7 @@ $(document).ready(function () {
       "<p id = 'password-attempts'><span id = 'player-tries'></span></p><br>"
     ); //password attempts
     var readings = {
-        title: "GREEN IMPERIAL (TM) HACKING PROTOCOL",
+        title: "ORION INDUSTRIES (TM) HACKING PROTOCOL",
         password: "ENTER PASSWORD :",
         attempts: "Attempts remaining --> " + tries + " " + dots(tries)
       },

@@ -47,7 +47,7 @@ body {
 }
 
 #headshot {
-  background: url("https://cdn.dribbble.com/users/1588446/screenshots/7028330/media/8d542e2cc44a1054a2ff8057438fdb8a.gif");
+  background: url("redeye.gif");
   height: 60%;
   width: 100%;
   margin: 0;
@@ -70,7 +70,7 @@ h1 {
 
 #context {
   height: 50%;
-  background: url("https://image.shutterstock.com/image-vector/creative-hud-futuristic-rectangle-frame-260nw-1137620018.jpg");
+  background: url("redbox.png");
   background-repeat: no-repeat;
   background-size: 90% 90%;
   padding: 0;
